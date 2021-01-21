@@ -1,10 +1,10 @@
-import React from 'react';
+import { useState } from "react";
 
 function App() {
-  const [totlal, setTotal] = useState(0);
+  const [total, setTotal] = useState(0);
 
-  return <h1 o
-          nClick={() => {
+  return <h1 
+          onClick={() => {
             setTotal(total + 1)
             }}
           >
