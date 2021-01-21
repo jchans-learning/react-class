@@ -87,18 +87,27 @@ yarn eject
 - 「狀態」與「屬性」
 - 元件，狀態屬性
 
-
 #### 第四節課：環境設定（Mac），續
 
 - 設定 ESLint 與 Prettier [參考老師的講義](https://github.com/eyesofkids/mfee11-react/tree/main/%E6%95%99%E6%9D%90/0121/reactjs%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A/CRA-eslint-prettier)。
 
-用 yarn 安裝
+##### 用 yarn 安裝
+
+- [eslint-plugin-prettier](https://yarnpkg.com/package/eslint-plugin-prettier)
+- [prettier](https://yarnpkg.com/package/prettier)
+- [eslint-config-react-app](https://yarnpkg.com/package/eslint-config-react-app)
+- [eslint-plugin-import](https://yarnpkg.com/package/eslint-plugin-import)
+- [eslint-plugin-react](https://yarnpkg.com/package/eslint-plugin-react)
+- [eslint-plugin-jsx-a11y](https://yarnpkg.com/package/eslint-plugin-jsx-a11y)
+- [eslint-plugin-react-hooks](https://yarnpkg.com/package/eslint-plugin-react-hooks)
+
+指令如下：
 
 ```
 yarn add eslint-plugin-prettier prettier eslint-config-react-app eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 ```
 
-或用 npm 安裝
+或用 npm 安裝，指令如下：
 
 ```
 npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
@@ -108,22 +117,19 @@ npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app e
 - [元件撰寫原則](https://github.com/eyesofkids/mfee11-react/issues/2)：
   1. 元件檔案名稱、元件文件名稱大寫英文字母開頭。（元件就是指函式）
   2. 每個元件的檔案名稱、元件名稱(函式/類別)、輸出(export default)名稱要一致。(老師再三強調，建議一個檔案只放一個元件)
-  3. 元件命名用"巴斯卡(PascalCase)"/[大駝峰(CamelCase )命名法](https://zh.wikipedia.org/wiki/%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1))
-  4. 回傳的JSX語句只能有一個根元素。(必要時要用<>.....</>包住)
-
+  3. 元件命名用"巴斯卡(PascalCase)"/[大駝峰(CamelCase )命名法](<https://zh.wikipedia.org/wiki/%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)>)
+  4. 回傳的 JSX 語句只能有一個根元素。(必要時要用<>.....</>包住)
 
 #### 第五節課：開始寫點東西
 
 - Chrome 輔助工具： [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related)
-- [Hooks 勾子](https://github.com/eyesofkids/mfee11-react/blob/main/%E6%95%99%E6%9D%90/0121/React%E5%8B%BE%E5%AD%90(hooks)/intro.md)
+- [Hooks 勾子](<https://github.com/eyesofkids/mfee11-react/blob/main/%E6%95%99%E6%9D%90/0121/React%E5%8B%BE%E5%AD%90(hooks)/intro.md>)
 - 練習函式型元件（ Function Component ）與類別型元件（ Class Component ）的寫法
-
 
 #### 第六節課
 
 - 類別 Class
 - 狀態 state 與 屬性 props
   - state 又稱 local state
-  - 原本只能在 ES6類別元件中使用， Hook 出現後已可用 Hook 元件存取
+  - 原本只能在 ES6 類別元件中使用， Hook 出現後已可用 Hook 元件存取
 - setState 方法是異步的（ Async ？要注意一些東西的執行順序）
-
