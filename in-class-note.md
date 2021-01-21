@@ -3,6 +3,7 @@
 ### 2020/01/21 Wed
 
 - 開始上 React 。
+- 老師用 github issue [註記的一些要注意的地方](https://github.com/eyesofkids/mfee11-react/issues) 。
 
 #### 第一節課：複習 ES6
 
@@ -121,3 +122,8 @@ npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app e
 #### 第六節課
 
 - 類別 Class
+- 狀態 state 與 屬性 props
+  - state 又稱 local state
+  - 原本只能在 ES6類別元件中使用， Hook 出現後已可用 Hook 元件存取
+- setState 方法是異步的（ Async ？要注意一些東西的執行順序）
+

@@ -14,14 +14,18 @@ class CountClass extends React.Component {
         <h1>{this.state.total}</h1>
         <button
           onClick={() => {
-            this.setState({ total: this.state.total - 1 })
+            const newTotal = this.state.total - 1
+            this.setState({ total: newTotal })
+            console.log(newTotal)
           }}
         >
           -1
         </button>
         <button
           onClick={() => {
-            this.setState({ total: this.state.total + 1 })
+            const newTotal = this.state.total + 1
+            this.setState({ total: newTotal })
+            console.log(newTotal)
           }}
         >
           +1
