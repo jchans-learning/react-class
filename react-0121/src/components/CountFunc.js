@@ -5,13 +5,6 @@ function CountFunc() {
 
   return (
     <>
-      <button
-        onClick={() => {
-          setTotal(total + 1)
-        }}
-      >
-        +1
-      </button>
       <h1>{total}</h1>
       <button
         onClick={() => {
@@ -19,6 +12,13 @@ function CountFunc() {
         }}
       >
         -1
+      </button>
+      <button
+        onClick={() => {
+          setTotal(total + 1)
+        }}
+      >
+        +1
       </button>
     </>
   )

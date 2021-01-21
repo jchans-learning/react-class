@@ -10,13 +10,23 @@ class CountClass extends React.Component {
 
   render() {
     return (
-      <h1
-        onClick={() => {
-          this.setState({ total: this.state.total + 1 })
-        }}
-      >
-        {this.state.total}
-      </h1>
+      <>
+        <h1>{this.state.total}</h1>
+        <button
+          onClick={() => {
+            this.setState({ total: this.state.total - 1 })
+          }}
+        >
+          -1
+        </button>
+        <button
+          onClick={() => {
+            this.setState({ total: this.state.total + 1 })
+          }}
+        >
+          +1
+        </button>
+      </>
     )
   }
 }

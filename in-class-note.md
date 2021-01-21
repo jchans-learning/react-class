@@ -116,3 +116,8 @@ npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app e
 - Chrome 輔助工具： [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related)
 - [Hooks 勾子](https://github.com/eyesofkids/mfee11-react/blob/main/%E6%95%99%E6%9D%90/0121/React%E5%8B%BE%E5%AD%90(hooks)/intro.md)
 - 練習函式型元件（ Function Component ）與類別型元件（ Class Component ）的寫法
+
+
+#### 第六節課
+
+- 類別 Class
