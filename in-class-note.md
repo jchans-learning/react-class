@@ -89,6 +89,18 @@ yarn eject
 
 #### 第四節課：環境設定（Mac），續
 
-- 設定 ESLint 與 Prettier
+- 設定 ESLint 與 Prettier [參考老師的講義](https://github.com/eyesofkids/mfee11-react/tree/main/%E6%95%99%E6%9D%90/0121/reactjs%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A/CRA-eslint-prettier)。
+
+用 yarn 安裝
+
+```
+yarn add eslint-plugin-prettier prettier eslint-config-react-app eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+```
+
+或用 npm 安裝
+
+```
+npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+```
 
 
