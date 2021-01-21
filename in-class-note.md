@@ -103,7 +103,7 @@ yarn add eslint-plugin-prettier prettier eslint-config-react-app eslint-plugin-i
 npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 ```
 
-- 課堂間會介紹的勾子： useState, useEffect
+- 課堂間會介紹的 [勾子（ hook ）](https://zh-hant.reactjs.org/docs/hooks-intro.html) ： useState, useEffect
 - [元件撰寫原則](https://github.com/eyesofkids/mfee11-react/issues/2)：
   1. 元件檔案名稱、元件文件名稱大寫英文字母開頭。（元件就是指函式）
   2. 每個元件的檔案名稱、元件名稱(函式/類別)、輸出(export default)名稱要一致。(老師再三強調，建議一個檔案只放一個元件)
