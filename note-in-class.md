@@ -53,7 +53,7 @@
 sudo npm i -g yarn
 ```
 
-- [用 CRA(Create React App) 建立新專案](https://create-react-app.dev/docs/getting-started)
+- [用 create-react-app 建立新專案](https://create-react-app.dev/docs/getting-started)
 
 ```
 npx create-react-app my-app
@@ -82,7 +82,7 @@ yarn eject
 #### 補充說明
 
 - React 這種函式庫通常稱為 SPA （ Single Program App ）的函式庫。
-- public/index.html 與 js/index.js 我們不太會去動。
+- public/index.html 與 src/index.js 我們不太會去動。
 - 稱為「使用狀態」的 鉤子。
 - 「狀態」與「屬性」
 - 元件，狀態屬性
