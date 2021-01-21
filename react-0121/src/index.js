@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// 把虛擬 DOM 轉成真實 DOM
 ReactDOM.render(
   <React.StrictMode>
     <App />

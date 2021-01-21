@@ -44,7 +44,7 @@
   - 工作與優先權劃分
   - 實驗階段（？）
 
-#### 第三節課：環境設定
+#### 第三節課：環境設定（Mac）
 
 - 安裝 [yarn](https://yarnpkg.com/)
 
@@ -57,3 +57,31 @@ sudo npm i -g yarn
 ```
 npx create-react-app my-app
 ```
+
+（記得把 node_modules 放到 .gitignore ）
+
+- 一些 yarn 指令
+
+```
+yarn start
+  Starts the development server.
+
+yarn build
+  Bundles the app into static files for production.
+
+yarn test
+  Starts the test runner.
+
+yarn eject
+  Removes this tool and copies build dependencies, configuration files and scripts into the app directory. If you do this, you can’t go back!
+```
+
+- 可以[在 .env 檔設定環境](https://create-react-app.dev/docs/adding-custom-environment-variables/) ，例如設定 PORT 。
+
+#### 補充說明
+
+- React 這種函式庫通常稱為 SPA （ Single Program App ）的函式庫。
+- public/index.html 與 js/index.js 我們不太會去動。
+- 稱為「使用狀態」的 鉤子。
+- 「狀態」與「屬性」
+- 元件，狀態屬性
