@@ -107,6 +107,8 @@ npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app e
 - [元件撰寫原則](https://github.com/eyesofkids/mfee11-react/issues/2)：
   1. 元件檔案名稱、元件文件名稱大寫英文字母開頭。（元件就是指函式）
   2. 每個元件的檔案名稱、元件名稱(函式/類別)、輸出(export default)名稱要一致。(老師再三強調，建議一個檔案只放一個元件)
+  3. 元件命名用"巴斯卡(PascalCase)"/[大駝峰(CamelCase )命名法](https://zh.wikipedia.org/wiki/%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1))
+  4. 回傳的JSX語句只能有一個根元素。(必要時要用<>.....</>包住)
 
 
 - [Hooks 勾子](https://github.com/eyesofkids/mfee11-react/blob/main/%E6%95%99%E6%9D%90/0121/React%E5%8B%BE%E5%AD%90(hooks)/intro.md)
