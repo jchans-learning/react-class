@@ -103,4 +103,7 @@ yarn add eslint-plugin-prettier prettier eslint-config-react-app eslint-plugin-i
 npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 ```
 
-
+- 課堂間會介紹的鉤子： useState, useEffect
+- 元件撰寫的原則（老師建議）：
+  1. 元件檔案名稱、元件文件名稱大寫英文字母開頭。（元件就是指函式）
+  2. 一個檔案只放一個元件。(老師再三強調)
