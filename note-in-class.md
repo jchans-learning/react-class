@@ -11,7 +11,7 @@
 - React 官網參考資料 [Components 與 Props （中文）](https://zh-hant.reactjs.org/docs/components-and-props.html) ， [Components 與 Props （英文）](https://reactjs.org/docs/components-and-props.html)
 - Function Component 與 Class Component 寫法
 - 一般寫法與解構賦值寫法
-- 目前看起來好像 Function Component 寫法比較少程式碼？
+- 目前看起來好像 Function Component 可以寫比較少程式碼？待確認。
 
 ##### 屬性的預設值 defaultProps
 
@@ -19,3 +19,4 @@
 - 參考老師的教材 [ES6 類別Class](https://github.com/eyesofkids/mfee11-react/blob/main/%E6%95%99%E6%9D%90/0121/ES6%E7%AF%87-%E9%A1%9E%E5%88%A5class.pdf) 講義。
 - 老師建議目前不要用 ES7 的語法裡的 static ，因為那只有類別可以用。 ES6 的語法目前則是函式元件與類別元件可以通用。
 
+JSX 語法裡的屬性值，不像 HTML ，並不限於字串。
