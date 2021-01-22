@@ -1,11 +1,9 @@
-import SelectBox from './components/SelectBox'
-import CountClass from './components/CountClass'
+import HelloWorld from './components/HelloWorld'
 
 function App() {
   return (
     <>
-      <SelectBox />
-      <CountClass />
+      <HelloWorld text="你好" name="Amy" />
     </>
   )
 }
