@@ -40,6 +40,12 @@
 - key 與 ref 不屬於 props
 - 看到 map 就要加 key
 - 寫法似乎隨著 React 版本改變也一直在變
+- JSX語法 的 style 必須是物件
+- JSX與風 不能直接輸出物件，但可以直接輸出陣列
+- JSX 陣列裡可以放 React元素
 
-##### 練習：HelloWorldList.js 與 map 語法
+##### 練習： HelloWorldList.js 與 map 語法
 
+##### 練習： MyLinks.js
+
+- React.Children
