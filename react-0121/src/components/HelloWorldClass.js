@@ -1,16 +1,20 @@
 import React from 'react'
 
 class HelloWorldClass extends React.Component {
-  constructor() {
-    super()
+  // 解構賦值寫法
+  constructor(props) {
+    super(props)
     this.state = {}
+    console.log(props)
   }
 
   render() {
+    // 解構賦值寫法
+    const { name, text } = this.props
+
     return (
       <h1>
-        {/* props 可以自動得到 */}
-        {this.props.name}, {this.props.text}
+        {name}, {text}
       </h1>
     )
   }
