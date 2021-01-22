@@ -21,4 +21,7 @@
 
 
 - JSX 語法裡的屬性值，不像 HTML ，並不限於字串。
-- 屬性值可以用 [prop-types](https://www.npmjs.com/package/prop-types) 套件來限制類型。雖然我連結貼 npm 套件頁面，但是我這次用 yarn 裝看看（ yarn 的這個套件的說明頁面直接用 npm 那邊的... ）。（ [補充資料](https://github.com/eyesofkids/mfee11-react/issues/5) ）
+- 屬性值可以用 [prop-types](https://www.npmjs.com/package/prop-types) 套件來限制類型。雖然我連結貼 npm 套件頁面，但是我這次用 yarn 裝看看（ yarn 的這個套件的說明頁面直接用 npm 那邊的... ）。
+  - [補充資料](https://github.com/eyesofkids/mfee11-react/issues/5) ）
+  - [React 官網關於 prop-types 的文件](https://zh-hant.reactjs.org/docs/typechecking-with-proptypes.html)
+
