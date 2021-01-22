@@ -41,3 +41,5 @@
 - 看到 map 就要加 key
 - 寫法似乎隨著 React 版本改變也一直在變
 
+##### 練習：HelloWorldList.js 與 map 語法
+
