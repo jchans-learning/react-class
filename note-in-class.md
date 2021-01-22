@@ -28,9 +28,9 @@
   - 不是一個很好的檢查工具，連續有兩三個錯誤的話，只會檢查到第一個錯誤。
 
 
-##### 略談 TypeScript
+##### 其他
 
 - TypeScript 官網： https://www.typescriptlang.org/
 - 可能之後得自己學看看
-
+- key 與 ref 不屬於 props
 
