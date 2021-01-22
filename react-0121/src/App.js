@@ -4,7 +4,7 @@ import HelloWorldClass from './components/HelloWorldClass'
 function App() {
   return (
     <>
-      <HelloWorld />
+      <HelloWorld name={1} text={true} clickMethod={() => alert('test')} />
       <HelloWorldClass />
     </>
   )
