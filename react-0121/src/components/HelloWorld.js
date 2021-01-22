@@ -1,7 +1,10 @@
 function HelloWorld(props) {
+  // 解構賦值
+  const { name, text } = props
+
   return (
     <h1>
-      {props.name}, {props.text}
+      {name}, {text}
     </h1>
   )
 }
