@@ -17,3 +17,4 @@
 
 - 屬性的預設值寫在 function 的變數裡，可運作但不建議這樣寫（風格上）
 - 參考老師的教材 [ES6 類別Class](https://github.com/eyesofkids/mfee11-react/blob/main/%E6%95%99%E6%9D%90/0121/ES6%E7%AF%87-%E9%A1%9E%E5%88%A5class.pdf) 講義。
+- 老師建議目前不要用 ES7 的語法裡的 static ，因為那只有類別可以用。 ES6 的語法目前則是函式元件與類別元件可以通用。
