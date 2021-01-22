@@ -20,4 +20,10 @@ class HelloWorldClass extends React.Component {
   }
 }
 
+// 預設屬性
+HelloWorldClass.defaultProps = {
+  name: 'Hans',
+  text: 'Hello! This is defalutProps from Class Componet',
+}
+
 export default HelloWorldClass
