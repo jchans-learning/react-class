@@ -32,5 +32,12 @@
 
 - TypeScript 官網： https://www.typescriptlang.org/
 - 可能之後得自己學看看
+
+
+#### React Element
+
+- JSX 語法.pdf
 - key 與 ref 不屬於 props
+- 看到 map 就要加 key
+- 寫法似乎隨著 React 版本改變也一直在變
 
