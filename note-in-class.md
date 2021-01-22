@@ -19,9 +19,18 @@
 - 參考老師的教材 [ES6 類別Class](https://github.com/eyesofkids/mfee11-react/blob/main/%E6%95%99%E6%9D%90/0121/ES6%E7%AF%87-%E9%A1%9E%E5%88%A5class.pdf) 講義。
 - 老師建議目前不要用 ES7 的語法裡的 static ，因為那只有類別可以用。 ES6 的語法目前則是函式元件與類別元件可以通用。
 
+##### 檢查屬性值
 
 - JSX 語法裡的屬性值，不像 HTML ，並不限於字串。
 - 屬性值可以用 [prop-types](https://www.npmjs.com/package/prop-types) 套件來限制類型。雖然我連結貼 npm 套件頁面，但是我這次用 yarn 裝看看（ yarn 的這個套件的說明頁面直接用 npm 那邊的... ）。
   - [補充資料](https://github.com/eyesofkids/mfee11-react/issues/5) ）
   - [React 官網關於 prop-types 的文件](https://zh-hant.reactjs.org/docs/typechecking-with-proptypes.html)
+  - 不是一個很好的檢查工具，連續有兩三個錯誤的話，只會檢查到第一個錯誤。
+
+
+##### 略談 TypeScript
+
+- TypeScript 官網： https://www.typescriptlang.org/
+- 可能之後得自己學看看
+
 
