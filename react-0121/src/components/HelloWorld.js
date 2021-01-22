@@ -1,4 +1,6 @@
 function HelloWorld(props) {
+  // 解構賦值
+
   return (
     <h1>
       {props.name}, {props.text}
