@@ -11,7 +11,8 @@
 - 補充，[副作用與存粹函式](https://github.com/eyesofkids/mfee11-react/issues/9)
 - [componentDidMount](https://github.com/eyesofkids/mfee11-react/issues/7) 很重要，用來整合其他程式，例如 jQuery 。
 - 要最佳化一些比較特別東西，還是要用類別型元件的一些進階用法。函式型元件沒辦法用。
-
+- 下午精神稍微好一點點。
+- 可被控制元件（ Controlled Components )
 
 
 
