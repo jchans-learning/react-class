@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 
 function CountFunc2(props) {
-  const [total, setTotal] = useState(0)
+  const { total, setTotal } = props
 
   return (
     <>
-      <h1>{props.initNumber + total}</h1>
+      <h1>{total}</h1>
       <button
         onClick={() => {
           setTotal(total + 1)
