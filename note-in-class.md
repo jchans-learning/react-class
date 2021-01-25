@@ -1,5 +1,17 @@
 # React 上課筆記
 
+### 2020/1/25 Mon
+
+- 昨晚沒睡，精神不好。前兩三個例子勉強跟著。
+- useReducer 第三方套件，略提。老師認為不如學 REDAS （？）
+- 撰寫原則建議：盡量不要讓子女元件有狀態。會有執行程序的問題。
+- 生命週期... 有聽沒有懂。得自己找時間看文件。
+- [React lifecycle methods diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+- 我是誰... 我在哪裡...
+
+
+
+
 ### 2020/01/22 Fri
 
 - 上課遲到。 09:20 進教室的時候老師講第一個例子講到一半。
