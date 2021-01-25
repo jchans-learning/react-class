@@ -1,8 +1,15 @@
 import Child from './Child'
+import { useState } from 'react'
 
 function Parent() {
-  const innerData = '父母元件內部資料'
-  return <Child data={innerData} />
+  const [data, setData] = useState('')
+
+  return (
+    <>
+      <h1>{data}</h1>
+      <Child setData={setData} />
+    </>
+  )
 }
 
 export default Parent
