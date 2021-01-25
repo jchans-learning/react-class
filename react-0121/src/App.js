@@ -1,9 +1,10 @@
-import CountParent from './components/CountParent'
+import { useState } from 'react'
+import MoneyEx from './components/MoneyEx'
 
 function App() {
   return (
     <>
-      <CountParent />
+      <MoneyEx />
     </>
   )
 }

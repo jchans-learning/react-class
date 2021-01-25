@@ -5,9 +5,13 @@
 - 昨晚沒睡，精神不好。前兩三個例子勉強跟著。
 - useReducer 第三方套件，略提。老師認為不如學 REDAS （？）
 - 撰寫原則建議：盡量不要讓子女元件有狀態。會有執行程序的問題。
-- 生命週期... 有聽沒有懂。得自己找時間看文件。
+- 生命週期（ React 定義給類別型元件的，函式型元件沒有）... 有聽沒有懂。得自己找時間看文件。
 - [React lifecycle methods diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 - 我是誰... 我在哪裡...
+- 補充，[副作用與存粹函式](https://github.com/eyesofkids/mfee11-react/issues/9)
+- [componentDidMount](https://github.com/eyesofkids/mfee11-react/issues/7) 很重要，用來整合其他程式，例如 jQuery 。
+- 要最佳化一些比較特別東西，還是要用類別型元件的一些進階用法。函式型元件沒辦法用。
+
 
 
 
