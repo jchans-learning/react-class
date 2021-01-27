@@ -8,6 +8,8 @@
 - 待辦事項範例專案
 	- https://todomvc.com/
 	- 很典型的 CRUD
+- 練習好好寫註解
+- React ，「狀態」（ state ）
 
 
 ### 2020/01/25 Mon
