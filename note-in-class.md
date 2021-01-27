@@ -1,6 +1,16 @@
 # React 上課筆記
 
-### 2020/1/25 Mon
+### 2020/01/27 Wed
+
+- 從前兩天的崩潰中站起來，得先把今天教的東西聽一下。星期一的部分找時間再複習。
+- 日期
+	- React Date Picker: https://github.com/Hacker0x01/react-datepicker/
+- 待辦事項範例專案
+	- https://todomvc.com/
+	- 很典型的 CRUD
+
+
+### 2020/01/25 Mon
 
 - 昨晚沒睡，精神不好。前兩三個例子勉強跟著。
 - useReducer 第三方套件，略提。老師認為不如學 REDAS （？）
@@ -13,8 +23,7 @@
 - 要最佳化一些比較特別東西，還是要用類別型元件的一些進階用法。函式型元件沒辦法用。
 - 下午精神稍微好一點點。
 - 可被控制元件（ Controlled Components )
-
-
+- 狀態
 
 
 ### 2020/01/22 Fri

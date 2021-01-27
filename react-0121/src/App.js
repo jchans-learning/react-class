@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import MoneyEx from './components/MoneyEx'
+import TodoApp from './components/TodoApp'
 
 function App() {
   return (
     <>
-      <MoneyEx />
+      <TodoApp />
     </>
   )
 }
