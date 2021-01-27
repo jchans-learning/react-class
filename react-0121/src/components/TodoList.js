@@ -1,7 +1,7 @@
 import TodoItem from './TodoItem'
 
 function TodoList(props) {
-  const { todos, handleCompleted, handleDeleted } = props
+  const { todos, handleCompleted, handleDelete } = props
   return (
     <>
       <ul>
@@ -11,7 +11,7 @@ function TodoList(props) {
               key={item.id}
               item={item}
               handleCompleted={handleCompleted}
-              handleDeleted={handleDeleted}
+              handleDelete={handleDelete}
             />
           )
         })}

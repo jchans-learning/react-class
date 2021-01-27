@@ -1,10 +1,10 @@
 import HelloWorld from './HelloWorld'
-// import TodoApp from './components/TodoApp'
+import TodoApp from './components/TodoApp'
 
 function App() {
   return (
     <>
-      {/* <TodoApp /> */}
+      <TodoApp />
       <HelloWorld />
     </>
   )
