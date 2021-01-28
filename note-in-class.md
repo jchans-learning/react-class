@@ -1,5 +1,16 @@
 # React 上課筆記
 
+### 2020/01/28 Thur
+
+- 繼續崩潰
+- 使用 react bootstrap
+- 學這些東西每每讓自己覺得，自己實在做了不少重複發明輪子的事情。
+- scss 入門， [講義](https://github.com/eyesofkids/mfee11-react/blob/main/%E6%95%99%E6%9D%90/0127/scss-200310.md)
+- VSCode 外掛， Sass ， Sass Lint ， Live Sass compiler ， Less 等（大略談，進階使用）
+- 在 React 裡導入 jQuery 模組？
+- componentDidMount, useEffect
+- useRef
+
 ### 2020/01/27 Wed
 
 - 從前兩天的崩潰中站起來，得先把今天教的東西聽一下。星期一的部分找時間再複習。
