@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-function MyNavbar(props) {
+function MainContent(props) {
   return (
     <>
       <main role="main" className="flex-shrink-0">
@@ -10,4 +10,4 @@ function MyNavbar(props) {
   )
 }
 
-export default MyNavbar
+export default MainContent
